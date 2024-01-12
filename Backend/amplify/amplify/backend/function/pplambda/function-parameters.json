@@ -1,0 +1,17 @@
+{
+  "lambdaLayers": [],
+  "environmentVariableList": [
+    {
+      "cloudFormationParameterName": "recaptchaSecretKey",
+      "environmentVariableName": "RECAPTCHA_SECRET_KEY"
+    },
+    {
+      "cloudFormationParameterName": "accessTokenSecret",
+      "environmentVariableName": "ACCESS_TOKEN_SECRET"
+    },
+    {
+      "cloudFormationParameterName": "refreshTokenSecret",
+      "environmentVariableName": "REFRESH_TOKEN_SECRET"
+    }
+  ]
+}

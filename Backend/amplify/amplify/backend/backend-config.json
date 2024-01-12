@@ -1,0 +1,31 @@
+{
+  "function": {
+    "pplambda": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "api": {
+    "ppentry": {
+      "service": "API Gateway",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [
+        {
+          "category": "function",
+          "resourceName": "pplambda",
+          "attributes": [
+            "Name",
+            "Arn"
+          ]
+        }
+      ]
+    }
+  },
+  "storage": {
+    "product": {
+      "service": "DynamoDB",
+      "providerPlugin": "awscloudformation"
+    }
+  }
+}

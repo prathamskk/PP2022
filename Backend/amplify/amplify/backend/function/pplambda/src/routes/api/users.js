@@ -1,0 +1,13 @@
+const express = require('express');
+const router = express.Router();
+const usersController = require('../../controllers/usersController');
+const ROLES_LIST = require('../../config/roles_list');
+const verifyRoles = require('../../middleware/verifyRoles');
+
+router.get('/',verifyRoles(ROLES_LIST.Admin), usersController.getAllUsers)
+// router.delete('/',verifyRoles(ROLES_LIST.Admin), usersController.deleteUser)
+
+
+// router.get('/:id',verifyRoles(ROLES_LIST.Admin), usersController.getUser)
+
+module.exports = router;

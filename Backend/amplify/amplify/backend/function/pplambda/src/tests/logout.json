@@ -1,0 +1,13 @@
+{
+    "httpMethod": "GET",
+    "path": "/logout",
+    "queryStringParameters": {
+        "limit": "10"
+    },
+    "headers": {
+        "Content-Type": "application/json",
+        "cookie":"jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6InByYXRoYW1za2tAZ21haWwuY29tIiwiaWF0IjoxNjU4MDQ2NDEwLCJleHAiOjE2NTkzNDI0MTB9.NnJSe3dvYUGPmv2Bh6DPcdGPiKlGF23MV8MJJ-N2iEo"
+    },
+  
+    "body":   "{\n\"email\":\"prathamskk@gmail.com\",\n\"password\":\"pratham\",\"recaptcha_token\":\"03ANYolqttkZfuk2cGbpa_WVVd7U8htBWJQSz_aFGhsvi0h4wCkyhF89d524vvtLzt8vSUT-WSKTVioVqdIcDG0yf9cLA5gAX44aLRCbVzaMNSl31bxyDgh9ITOzkN_FDtnxZhj82mSkbwwaF9hOXB01k5ZVsHvAJPTNHuzqAnMc3VjfIIY_yVRBf8Vk-1fJH-nWxpx0jZ6bTe_fz9I-QUN_zGMGxMiHkMmjojDnw0fUO1vhrbNkGiH-WBzBOD8Yl2w1F18GmNHhmY3uKzqRWXeYzYq5vdmo3ZZ8GGLc4AS3vd1vvmRd1AjGZeQWiM2F9JSCWfzDmAw33HdCMy9jm-95aE6yg68YgaLgZMECvac5j19E0TZVCugfnegd-DTmm7TVNSpQrJF6wIZx5CIWwyAh-qjrm70eNJHifSHJ_YKyN0b3C0KEbkplx188VzM8wiGpnfLp5oQ3v0_O9CvTbePjkGSWcrxk91fw\"\n}"
+  }

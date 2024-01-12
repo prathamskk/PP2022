@@ -1,0 +1,10 @@
+{
+  "resourceName": "product",
+  "tableName": "product",
+  "partitionKey": {
+    "fieldName": "contact_number",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

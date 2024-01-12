@@ -1,0 +1,11 @@
+{
+  "httpMethod": "POST",
+  "path": "/form",
+  "queryStringParameters": {
+      "limit": "10"
+  },
+  "headers": {
+      "Content-Type": "application/json"
+  },
+  "body":   "{\n  \"company_name\": \"GOOGLE\",\n  \"owners_name\": \"pratham\",\n  \"applicant_name\": \"pratham\",\n  \"applicant_designation\": \"IT GUY\",\n  \"email\": \"prathamskk@gmail.com\",\n  \"contact_number\": \"8108980846\",\n  \"team_size\": \"solo\",\n  \"company_type\": \"product\",\n  \"commodity_name\": \"google\",\n  \"domain\": \"IT\",\n  \"turnover\": \"1 CRORE +\",\n  \"company_description\": \"google company\",\n  \"commodity_description\": \"google company\",\n  \"website_link\": \"\",\n  \"app_link\": \"\",\n  \"recaptcha_token\": \"03ANYolqsW6dPSHLjc6TamdZOGF6WPHv7nQxsMohC1yG1doHnS5cF05ZJTQmT1c0uM55geKWFEzRC86hsn4ElmpYOgd-0V2625C1NfZ_SCz9eF-XLob5zd5aIH1ukGZemlmfjquBCprsa8JnjiS1jfescbHj7gTiGUhyQ_8TfsvGznnFq8wzkxDdtUpJnq8tnnUf-49yMmzSbBNtegN2HdpIkemsv4022Ec5_0mrOoQl44za91-3aT1fMiD7wZF0S2bkcizuPDpUPDQYvi3_YD_FNyup-H3V4M4JrklN0G2TvP8pZkFawOcIOLEBOkRaPBifM1RKbdhuRZf2Bkz6CpIysmH845ehVQ-JzMWFcPUkVXocYgj9trdmD9br2FG6LKFklaJhOCJ80zvhOEz5x3OO92M8aMYV2Oiiu9f2q4NLYwycsqLMIZ4TlNndcJE8ckFaHm_KxcbkA7OqhFglWy5qeua-t83YSNrdNHnNeBoFowQ-EiuslKjNw362Cib6lICTXJJ2KtUiyrYKA59Bf3DKdtnsc5KnEJ1Zp6shhmR-Zl-dqPGMIiEF-QKSnxJDI4Vurwba41veXeBJMQVweWYBEFjLk6Z228OA\"\n}"
+}
